@@ -1,0 +1,47 @@
+body {
+    background-color: black;
+    color: white;
+    display: block;
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    margin: 0 auto;
+    width: 80%;
+}
+
+a {
+    color: skyblue;
+    text-decoration: none;
+}
+
+a:hover {
+    font-size: 1.6rem;
+    color: white;
+    filter: drop-shadow(0 0 2px skyblue);
+    transition: 300ms;
+}
+
+a:not(:hover) {
+    transition: 300ms;
+}
+
+.divisas p {
+    filter: drop-shadow(0 0 2px white);
+    border-radius: 5px;
+    padding: 10px 5px;
+    color: black;
+    background-color: skyblue;
+}
+
+.divisas p:hover {
+    font-size: 1.1rem;
+    background-color: white;
+    color: black;
+    filter: drop-shadow(0 0 2px skyblue);
+    transition: 300ms;
+    cursor: pointer;
+}
+
+.divisas p:not(:hover) {
+    transition: 300ms;
+}
